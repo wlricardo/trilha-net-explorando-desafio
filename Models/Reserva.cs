@@ -27,7 +27,7 @@ namespace DesafioProjetoHospedagem.Models
             {
                 // TODO: Retornar uma exception caso a capacidade seja menor que o número de hóspedes recebido
                 // *IMPLEMENTE AQUI*
-                throw new CapacdadeException("O número de hóspedes é maior que a capacidade da suíte");
+                throw new CapacidadeException();
             }
         }
 
